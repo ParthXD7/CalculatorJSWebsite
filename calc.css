@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('background.jpg'); Replace 'background.jpg' with your image file */
+    background-color: #222222;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    background-color: rgba(167, 167, 167, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    text-align: center;
+  }
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .modes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .modes button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .buttons button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button.operator {
+    background-color: #f0f0f0;
+  }
+  
+  .buttons button.clear {
+    background-color: #ffcccc;
+  }
+  
+  .buttons button.function {
+    background-color: #f0f0f0;
+  }
+  
+  .buttons button.equal {
+    grid-column: span 2;
+    background-color: #99cc99;
+  }
+  
+  .buttons button:hover {
+    background-color: #ddd;
+  }
+  
+  .dark-mode .calculator {
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark-mode .buttons button {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dark-mode .buttons button.clear{
+    background-color: #9c5e5e;
+  }
+  .dark-mode .buttons button.equal {
+    background-color: #2f642f;
+  }
+  
+  .dark-mode .buttons button:hover {
+    background-color: #777;
+  }
+  
+  .dark-mode .modes button {
+    background-color: #555;
+  }
+  
+  .dark-mode .modes button:hover {
+    background-color: #777;
+  }
+  
