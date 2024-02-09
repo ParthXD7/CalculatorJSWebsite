@@ -40,7 +40,7 @@ function calculateResult() {
 
 document.addEventListener("keydown", function(event) {
     const key = event.key;
-    if (/[0-9+\-*/.=]|Enter|Backspace|Delete/.test(key)) {
+    if (/[0-9+\-*/.=,()]|Enter|Backspace|Delete/.test(key)) {
         event.preventDefault();
         switch (key) {
             case "Enter":
