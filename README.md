@@ -15,7 +15,8 @@ This is a scientific calculator built with JavaScript. It's designed and develop
 
 ## Dark Mode
 
-This calculator comes with a dark mode feature. This feature can be toggled on or off based on user preference, providing a comfortable user experience during both day and night.
+This calculator comes with a dark mode feature. This feature can be toggled on or off based on user
+ preference, providing a comfortable user experience during both day and night.
 
 ## Usage
 
@@ -23,7 +24,8 @@ Open the `index.html` file in your web browser to start using the calculator.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would
+like to change.
 
 ## License
 
